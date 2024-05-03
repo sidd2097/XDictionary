@@ -39,9 +39,9 @@ const XDictionary = () => {
         />
         <button onClick={handleSearch}>Search</button>
       </div>
-      <div className="definition">
+      
         {definition && <p>Definition: {definition}</p>}
-      </div>
+      
     </div>
   );
 };
