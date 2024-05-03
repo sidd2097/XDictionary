@@ -41,7 +41,7 @@ const XDictionary = () => {
       </div>
       <div className="definition">
       Definition:
-        {definition && <p>{definition}</p>}
+        <p>{definition}</p>
       </div>
     </div>
   );
