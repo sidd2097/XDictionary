@@ -40,7 +40,7 @@ const XDictionary = () => {
         <button onClick={handleSearch}>Search</button>
       </div>
       <div className="definition">
-      Definition:
+        <p>Definition:</p>
         <p>{definition}</p>
       </div>
     </div>
@@ -48,3 +48,4 @@ const XDictionary = () => {
 };
 
 export default XDictionary;
+      
